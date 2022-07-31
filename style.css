@@ -1,0 +1,97 @@
+.con1{
+    background-color: aliceblue;
+}
+.chau1{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    list-style: none;
+}
+.menu1{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.menu2{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0px 200px 0px 0px;
+}
+.menu1 li a{
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+.menu2 li a{
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+.con2{
+    background-color:bisque;
+}
+.chau2{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    justify-items: center;
+}
+.logo{
+    font-size: 5rem;
+}
+.menu3{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.menu3 li a{
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+.menu4{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+.menu4 li a{
+    display: block;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+.menu3 li{
+    position: relative;
+}
+.submenu{
+    position: absolute;
+    list-style: none;
+    padding: 15px 0px;
+    background-color:bisque;
+    width: 140px;
+    border: 1px solid bisque;
+    display: none;
+}
+.menu3 li:hover ul.submenu{
+    display: block;
+}
+.submenu a{
+    padding: 8px 15Px;
+    border-bottom: 1px solid;
+    left: 0;
+}
+
+.submenu li:hover>a{
+border-bottom: 1px solid;
+}
+.submenu li:last-child a{
+border-bottom: none;
+}
+
+
+
